@@ -1,0 +1,13 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "endpoint": "https://sandbox.boletobancario.com/api-integration/",
+    "endpoint_token": "https://sandbox.boletobancario.com/authorization-server/oauth/token",
+    "clientId": "aDs0vtk1cL7PYRLl",
+    "clientSecret": "Q6l;_2Dp_R*%OHZ;F&l_o_cJ&1=ZF05+",
+    "private_key": "70CAC5B4A28498B0CD0B6A927662BBC93E01AF6DDBAE529BBC6FB15F34C6EDB4",
+    "pix-key": "2af81caa-56b5-4384-87f9-200d3b7c6f51",
+    "jwt_key": "200d3b7c6f51",
+    "app_name": "Aplicação Juno"
+}

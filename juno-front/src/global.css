@@ -1,0 +1,214 @@
+* {
+    outline: none !important;
+}
+
+legend {
+    float: none !important;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+a * {
+    cursor: pointer !important;
+}
+
+body {
+    background-color: #eee !important;
+}
+
+svg {
+    flex-shrink: 0;
+}
+
+.pointer, .pointer * {
+    cursor: pointer;
+}
+
+.label-custom {
+    color: #2c2c31;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    margin-bottom: 8px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(153, 153, 153, 0.2) 0px 2px 4px 0px;
+    border-radius: 3px;
+    border: none;
+}
+
+.header {
+    border-bottom: 2px solid rgb(229,229,299);
+}
+
+.header .nav-link {
+    font-weight: 600;
+    color: #555 !important;
+    padding: 28px 1.5rem !important;
+    border: 0;
+    border-bottom: 2px solid transparent;
+}
+
+.header .nav-link:hover {
+    border-bottom: 2px solid #1976d2;
+}
+
+.header .nav-link .icon-lg {
+    font-size: 22px;
+}
+
+.badge-cart {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.product-img svg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-img-small svg {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.btn-checkout, .btn-checkout:hover {
+    color: #fff !important
+}
+
+.modal-cart .MuiDialog-paper {
+    background-color: #eee;
+    padding-top: 64px;
+}
+
+.coupon .MuiTextField-root fieldset {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.coupon .MuiButton-root {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.coupon-code .total {
+    text-decoration: line-through;
+}
+
+.checkout-credit-card-container {
+    width: 408px;
+    height: 250px;
+    position: relative;
+    perspective: 800px;
+}
+
+.checkout-credit-card-flip {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    margin-left: 14px;
+    text-align: left;
+}
+
+.checkout-credit-card-flip figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-size: 100% auto;
+}
+
+.checkout-credit-card-flip .front {
+    background: transparent url(./img/checkout/card-front.png) no-repeat center;
+}
+
+.checkout-credit-card-flip div {
+    position: relative;
+    z-index: 1;
+    color: #f8e2ed;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: monospace, monospace;
+}
+
+.checkout-credit-card-number {
+    top: 130px;
+    left: 34px;
+    font-size: 26px;
+}
+
+.checkout-credit-card-name {
+    top: 135px;
+    left: 36px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.checkout-credit-card-expiry-date {
+    top: 143px;
+    left: 94px;
+    font-size: 16px;
+}
+
+.checkout-credit-card-flip.flipped {
+    transform: rotateY(
+        180deg
+    );
+}
+
+.checkout-credit-card-flip .back {
+    background: transparent url(./img/checkout/card-back.png) no-repeat center;
+    transform: rotateY(
+        180deg
+    );
+}
+
+.checkout-credit-card-security-code {
+    top: 93px;
+    left: 324px;
+    color: black !important;
+}
+
+.checkout-credit-card-flag-front {
+    background: transparent url(./img/checkout/flags-front.png) no-repeat center;
+    top: 88px;
+    left: 292px;
+    width: 100px;
+    height: 70px;
+    background-position-y: -34px;
+}
+
+.checkout-credit-card-flip .mastercard {
+    background-position-x: -198px;
+}
+
+.checkout-credit-card-flip .visa {
+    background-position-x: -60px;
+    background-position-y: -26px;
+}
+
+.checkout-credit-card-flip .amex {
+    background-position-x: -310px;
+}
+
+.checkout-credit-card-flip .hipercard {
+    background-position-x: -456px;
+}
+
+.checkout-credit-card-flip .aura {
+    background-position-x: -704px;
+}
+
+.checkout-credit-card-flip .elo {
+    background-position-y: -32px;
+    background-position-x: -578px;
+}
